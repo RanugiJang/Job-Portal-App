@@ -50,7 +50,7 @@ public class UsersController {
             model.addAttribute("user", new Users());
             return "register";
         }
-        
+
        // System.out.println("User:: "+users);
         usersService.addNew(users);
         return "dashboard";
