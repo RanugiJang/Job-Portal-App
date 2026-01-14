@@ -40,6 +40,10 @@ public class RecruiterProfile {
         this.firstName = firstName;
     }
 
+    public RecruiterProfile(Users users) {
+        this.userId=users;
+    }
+
     public int getUserAccountId() {
         return userAccountId;
     }
